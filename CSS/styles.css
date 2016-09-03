@@ -17,11 +17,22 @@
 	height: 500px;
 	width: 700px;
  }
+.html_css {
+	margin-top: 50px;
+}
 
  .html_css img {/*image html_css*/
 	 margin-top: 50px;
  }
  
  .carrou { /*classe du carrousel*/
+	 margin-top: 50px;
+ }
+ 
+ .js { /*partie javascript*/
+	 margin-top: 50px;
+ }
+ 
+ .js img {
 	 margin-top: 50px;
  }
