@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE CV SYSTEM "cv.dtd">
+<?xml-stylesheet href="style.css" type="text/css" ?>
+
+	<page>
+		<section>
+				
+			<identite>
+				<prenom>Youness</prenom>
+				<nom>CHETOUI</nom>
+				<naissance>18ans - 30/07/1997</naissance>
+			</identite>
+		</section>				
+			
+		<titre>Developpeur web junior</titre>
+			
+		<photo></photo>
+			
+		<Contact>
+			<titre>Contact</titre>
+			<adresse>
+				<numero>3</numero>
+				<rue>Rue gina Pane</rue>
+				<cp>35000</cp>
+				<ville>Rennes</ville>
+				<pays>France</pays>
+			</adresse>
+			<tel>06.56.80.52.63</tel>
+			<mail>youness.chetoui@gmail.com</mail>				
+		</Contact>
+			
+		<section>
+			<competence>
+				<titre>Competence</titre>
+				Qualités relationnelles, Autonomie, Capacité d'adaptation et d'organisation, Français (Langue maternelles), Anglais (courant),
+				Informatique (Word, Excel, Internet, Access, PowerPoint, Open office).
+			</competence>
+		</section>
+
+		<section>
+			<formation>
+				<titre>Formations</titre>
+				<intitule>Bac professionnel S.E.N (Systèmes Électroniques et Numériques)</intitule>
+				<date>avec mention bien, Juin 2015, </date>
+				<ecole>Lycée Charles Tillon (Rennes, France).</ecole>
+			</formation>
+			
+			<formation>
+				<intitule>BEP S.E.N (Systèmes Électroniques et Numériques)</intitule>
+				<date>Juin 2014, </date>
+				<ecole>Lycée Charles Tillon (Rennes, France).</ecole>
+			</formation>
+		</section>			
+
+		<section>
+			<experience>
+				<titre>Experience Professionel</titre>
+				<date>Mai à Juillet 2013</date>
+				<intitule>stagiaire chez TVS Rennes : Technicien Hi-Fi et électroménager</intitule>
+				<descriptif>- Dépannage informatique, hifi-électroménager, relation clientèle, livraison et Installation</descriptif>
+			</experience>
+				
+			<experience>	
+				<date>Mai 2014 à Janvier 2015</date>
+				<intitule>stagiaire chez E.Leclerc St Grégoire : Employé du S.A.V</intitule>
+				<descriptif>- Relation clientèle, prise en charge d'appareil,livraison et installation.</descriptif>
+			</experience>
+
+			<experience>
+				<date>Décembre 2014</date>
+				<intitule>stagiaire à l'espace culturel de E.Leclerc à St Gregoire : Vendeur-conseille</intitule>
+				<descriptif>- Relation clientèle, conseil clientèle, mise en rayon.</descriptif>
+			</experience>
+		</section>
+						
+			<hobbie>
+				<titre>Hobbie</titre>
+				Cinéma, sport, sortie entre amis, séries TV, voyages (Maroc, Tunisie, Espagne)
+			</hobbie>	
+	</page>

@@ -1,0 +1,319 @@
+/* style du document */
+
+.container-fluid,
+.row {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	font-family: 'Merriweather', serif;
+}
+
+h1, h2, h3,
+.navbar-brand, .navbar-nav a,
+.btn > p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* style de la barre de navigation */
+
+header {
+	height: 50px;
+}
+
+.navbar {
+	margin-bottom: 0;
+	background-color: #FFFFFF;
+}
+
+.navbar-nav {
+	padding-right: 15px;
+}
+
+.navbar-brand,
+.navbar-nav a {
+	font-size: 1em;
+	font-weight: 700;
+}
+
+.navbar-brand {
+	color: #F05F40;
+}
+
+.navbar-nav a {
+	color: #222222;
+}
+
+/* style des boutons */
+
+.btn {
+	margin: 50px 0;
+	padding: 18px 30px;
+	border-radius: 30px;
+}
+
+.btn > p {
+	margin: 0;
+	font-weight: 700;
+}
+
+header+section .btn {
+	background-color: #F05F40;
+	color: #FFFFFF;
+}
+
+header+section+section .btn {
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+.DL .btn {
+	background-color: #F2F2F2;
+}
+
+.DL .btn:hover {
+	background-color: #F05F40;
+}
+
+/* style des deux premières sections */
+
+header+section,
+header+section+section {
+	text-align: center;
+}
+
+hr {
+	width: 50px;
+	height: 3px;
+	border: 0;
+}
+
+/* style de la première section ("find out more") */
+
+header+section {
+	height: 840px;
+	padding-top: 220px;
+	background-image: url("img/header.jpg");
+	background-size: 100% 100%;
+	background-position: center;
+}
+
+h1 {
+	margin-top: 0;
+	font-size: 4em;
+	font-weight: 700;
+	color: #FFFFFF;
+}
+
+header+section > hr {
+	background-color: #F05F40;
+}
+
+header+section > p {
+	margin: 0;
+	font-size: 1.2em;
+	font-weight: 100;
+	color: rgba(255,255,255,0.8);
+}
+
+/* style de la première section ("get started!") */
+
+header+section+section {
+	height: 420px;
+	padding-top: 100px;
+	background-color: #F05F40;
+	color: #FFFFFF;
+}
+
+h2 {
+	margin-top: 0;
+	font-size: 2em;
+	color: #FFFFFF;
+}
+
+header+section+section > hr {
+	background-color: #FFFFFF;
+}
+
+header+section+section > p {
+	max-width:75%;
+	margin: auto;
+	font-size: 1em;
+	font-weight: 100;
+	color: rgba(255,255,255,0.8);
+}
+
+.service { /* tout la section avec le titre et les icones*/
+	padding-top: 80px;
+	padding-bottom: 100px;
+}
+
+.at { /*le titre*/
+	padding-bottom: 10px;
+	color: #333333;
+}
+
+.fonta { /*div avec les icone*/
+	padding-top: 30px;
+}
+
+.service i {
+ color:#f05f40;
+ -webkit-animation-name: bounceIn;
+  animation-name: bounceIn;
+  -webkit-animation-duration:1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-fill-mode:both;
+  animation-fill-mode:both;
+}
+
+
+@keyframes bounceIn{
+ 0% {
+     opacity: 0;
+     -webkit-transform: scale(.3);
+ }
+ 50% {
+     opacity: 1;
+     -webkit-transform: scale(1.05);
+ }
+ 70%{
+   -webkit-transform: scale(.9);
+ }
+ 100% {
+   -webkit-transform: scale(1);
+ }
+}
+
+@keyframes bounceIn{
+ 0% {
+     opacity: 0;
+    transform: scale(.3);
+ }
+ 50% {
+     opacity: 1;
+     transform: scale(1.05);
+ }
+ 70%{
+  transform: scale(.9);
+ }
+ 100% {
+  transform: scale(1);
+ }
+}
+
+.orange { /*pour les deux barre orange*/
+    width: 60px;
+    height: 4px;
+    margin: auto;
+    background-color: #f05f40;
+}
+
+.hovereffect, .img1, .pho  { /*enleve le padding pour les photo*/
+	padding: 0!important;
+}
+
+.hovereffect { /* effet hover*/
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+  background: #f05f40;
+}
+
+.hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  padding: 50px 20px;
+}
+.overlay {
+	margin-top: 30px;
+	text-align: center;
+	font-size: 30px;	
+}
+
+.hovereffect img {  /* effet hover*/
+  display: block;
+  position: relative;
+  max-width: none;
+  width: calc(100% + 20px);
+  -webkit-transition: opacity 0.40s, -webkit-transform 0.40s; /*vitesse d'apparition du hover*/
+  transition: opacity 0.40s, transform 0.40s;
+  -webkit-transform: translate3d(0,0,0);/*l'image reste fixe pendant le hover*/
+  transform: translate3d(0,0,0); /*l'image reste fixe pendant le hover*/
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.hovereffect:hover img {  /* effet hover*/
+  opacity: 0.1;
+  filter: alpha(opacity=10); /*pour internet explorer 8*/
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.hovereffect a, .hovereffect h4 { /*le texte sans le hover*/
+  color: #fff;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.40s, -webkit-transform 0.40s;
+  transition: opacity 0.40s, transform 0.40s;
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.hovereffect:hover a, .hovereffect:hover h4 { /*le texte quand il ya l'hover*/
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.DL { /*partie noir ou ya le dl*/
+	background-color: #222222;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.DL h2 {
+	margin-bottom: 25px;
+	color: #F2F2F2;
+}
+
+.DL a {
+	text-decoration: none;
+	color: #222222; 
+}
+
+.contact { /* la partie pour contacter*/
+	padding-top: 80px;
+	padding-bottom: 100px;
+}
+
+.contact h2 {
+	padding-bottom: 5px;
+}
+
+.lets{ /*petit texte*/
+	padding-top: 25px;
+}
+
+.I_cont { /*les deux icone*/
+	padding-top: 10px;
+}
+
+.you { /*icone de la lettre*/
+	display: block;
+}
+
+.contact a {
+	color: #f05f40;
+}
