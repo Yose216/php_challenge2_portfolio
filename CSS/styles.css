@@ -3,7 +3,7 @@
 }
 	
 /*css carrousel*/
-#carousel {
+.carousel {
     height:500px;
     position:relative;
     clear:both;
@@ -11,12 +11,13 @@
     background:#FFF;
 }
 
-#carousel img {
+.carousel img {
     visibility:hidden; 
     cursor:pointer;
 	height: 500px;
 	width: 700px;
  }
+
 .html_css {
 	margin-top: 50px;
 }
@@ -35,4 +36,11 @@
  
  .js img {
 	 margin-top: 50px;
+ }
+ .jQuery {
+	 margin-top: 90px;
+ }
+ 
+ .imgjQ {
+	 margin-top: 40px;
  }

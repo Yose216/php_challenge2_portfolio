@@ -1,7 +1,7 @@
 
 //Script du carrousel
 $(document).ready(function () {
-        var carousel = $("#carousel").waterwheelCarousel({
+        var carousel = $(".carousel").waterwheelCarousel({
           flankingItems: 3,
           movingToCenter: function ($item) {
             $('#callback-output').prepend('movingToCenter: ' + $item.attr('id') + '<br/>');
@@ -37,3 +37,5 @@ $(document).ready(function () {
         });
 
       });
+	  
+	  	
