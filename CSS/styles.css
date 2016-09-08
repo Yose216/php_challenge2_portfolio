@@ -1,46 +1,64 @@
-.portfolio  {
-	margin-top: 100px;
+.portfolio {
+    margin-top: 100px;
 }
-	
+
+
 /*css carrousel*/
+
 .carousel {
-    height:500px;
-    position:relative;
-    clear:both;
-    overflow:hidden;
-    background:#FFF;
+    height: 500px;
+    position: relative;
+    clear: both;
+    overflow: hidden;
+    background: #FFF;
 }
 
 .carousel img {
-    visibility:hidden; 
-    cursor:pointer;
-	height: 500px;
-	width: 700px;
- }
-
-.html_css {
-	margin-top: 50px;
+    visibility: hidden;
+    cursor: pointer;
+    height: 500px;
+    width: 700px;
 }
 
- .html_css img {/*image html_css*/
-	 margin-top: 50px;
- }
- 
- .carrou { /*classe du carrousel*/
-	 margin-top: 50px;
- }
- 
- .js { /*partie javascript*/
-	 margin-top: 50px;
- }
- 
- .js img {
-	 margin-top: 50px;
- }
- .jQuery {
-	 margin-top: 90px;
- }
- 
- .imgjQ {
-	 margin-top: 40px;
- }
+.html_css {
+    margin-top: 50px;
+}
+
+.html_css img {
+    /*image html_css*/
+    margin-top: 50px;
+}
+
+.carrou {
+    /*classe du carrousel*/
+    margin-top: 50px;
+}
+
+.wp {
+    margin-top: 50px;
+}
+
+.wp img {
+    margin-top: 50px;
+}
+
+.wp h3 {
+    padding-left: 20px;
+}
+
+.js {
+    /*partie javascript*/
+    margin-top: 50px;
+}
+
+.js img {
+    margin-top: 50px;
+}
+
+.jQuery {
+    margin-top: 90px;
+}
+
+.imgjQ {
+    margin-top: 40px;
+}
