@@ -9,6 +9,7 @@
         <script src="JS/script.js" type="text/javascript"></script>
         <link rel="stylesheet" href="CSS/styles.css" />
         <link rel="stylesheet" href="CSS/Bootstrap/css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="CSS/Font-awesome/css/font-awesome.min.css"/>
 
     </head>
 
@@ -100,26 +101,25 @@
 
             <div class="cv col-lg-offset-5">
                 <h4>Retouvez mon CV içi : </h4>
-                <a href="PDF/Youness_CHETOUI.pdf" class="btn btn-primary" role="button">Mon CV</a>
+                <a href="PDF/Youness_CHETOUI.pdf" class="btn btn-primary col-lg-offset-1" role="button">Mon CV</a>
             </div>
 
-            <div id="Contact">
-                <h2>Contact</h2>
-                <form method="post" action="Mail.php" class="col-lg-offset-3">
-                    <label>E-mail : </label>
-                    <input type="email" name="adresse" placeholder="example@example.com" />
-                    <br/>
-                    <br/>
-                    <label>Objet : </label>
-                    <input type="texte" name="objet" placeholder="Ex : Travail" />
-                    <br/>
-                    <br/>
-                    <label>Texte : </label>
-                    <br/>
-                    <textarea type="text" name="msg" maxlength="500" placeholder="Votre message!" rows="8" cols="60"></textarea>
-                    <br/>
-                    <br/>
-                    <button class="btn btn-success col-lg-2 col-lg-offset-2" type="submit" value="Valider" name='envoye'>Envoi</button>
+            <div id="Contact" class="col-lg-12 contact">
+                <h2 class="col-lg-offset-5">CONTACT</h2>
+                <form method="post" action="Mail.php" class="col-lg-offset-4">
+                    <div class="col-lg-12 contInput">
+                        <label>E-mail : </label>
+                        <input type="email" name="adresse" placeholder="example@example.com" />
+                    </div>
+                    <div class="col-lg-12 contInput">
+                        <label>Objet : </label>
+                        <input type="texte" name="objet" placeholder="Ex : Travail" />
+                    </div>
+                    <div class="col-lg-8 contInput">
+                        <label>Message : </label>
+                        <textarea type="text" name="msg" maxlength="500" placeholder="Votre message!" rows="8" cols="60"></textarea>
+                    </div>
+                    <button class="btn btn-success col-lg-4 col-lg-offset-2" type="submit" value="Valider" name='envoye'>Envoi</button>
                 </form>
             </div>
         </div>
