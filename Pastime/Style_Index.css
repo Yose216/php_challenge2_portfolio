@@ -1,0 +1,225 @@
+* { /*permet de mettre sur toute la largeur de la fenetre sans marge blanche autour et de mettre tout le texte en News Cycle*/
+	margin: 0px;
+	font-family: 'News Cycle', sans-serif;
+}
+
+div { /*pas d'espace horizontal entre les block*/
+	display: inline-block;
+}
+
+header{ /* gere la premiere barre*/
+	height:120px;
+	width: 100%;
+	background-color: rgba(238,238,238,0.8); /* regle la couleur et l'opacite du fond*/
+	display: inline-block;
+}
+
+.topnav{	
+	width: 1000px;
+	margin-left: 175px;
+	color: #2B3F48;
+}
+
+.topnav h2{ /* le titre*/
+	padding:10px 0 10px 0;
+	float: left;
+	font-size: 55px;
+}
+
+ul{
+	margin: 15px 12px 0 12px;
+	padding: 31px 0 31px 0;
+	float: right;
+}
+
+li{
+	display: inline-block;
+	padding: 0 15px 0 15px;
+	font-size: 17px;
+	cursor: pointer;
+	
+}
+
+li:hover{ /*permet le changement de couleur*/
+	color:#27AE61;
+}
+
+.block1{ /*premier block avec l'image de fond*/
+	background-image: url("images/banner.png"); 
+	background-color: #27AE61 ;
+    width: 100%;
+    height: 780px;
+    margin:0px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.main1{ /*permet d'aligner les element et de pas les faire depasser de 1000px*/
+	text-align: center;
+	width: 1000px;
+	margin-left: 175px; 
+}
+
+.main1 img{ /*gere les image et les met en medaillon*/
+	border-radius: 100%;
+	padding: 20px;
+}
+
+.main1 h2{
+	font-size: 55px;
+	line-height: 170px;
+	color: white;
+}
+
+.Sous_titre1{ /*pour le sous-titre*/
+	font-size: 22px;
+	margin-top: 0px;
+	color: #cfefeb;
+}
+
+.Texte1{ /* gere le texte en dessous des sous titres*/
+	font-size: 17px;
+	line-height:30px;
+	margin-top: 30px;
+	color: #cfefeb;
+}
+
+.button{ /* gere le boutton*/
+	background-color:#2B3F48;
+	border:none;
+	color: white;
+	padding: 20px 32px;
+	text-align: center;
+	display:inline-block;
+	cursor: pointer;
+	letter-spacing: 4px;	
+	border-radius: 10px;
+	font-size:17px;
+	margin: 60px 0 60px 0;
+}
+
+
+.block2 { /* gere la taille, la largeur et la couleur de fond du deuxieme block*/
+	background-color: rgba(238,238,238,0.8); /* regle la couleur et l'opacite du fond*/
+	width: 100%;
+	height: 610px;
+	margin: 0px;
+}
+
+.main2 { /*permet d'aligner les element et de pas les faire depasser de 1000px*/
+	width: 1000px;
+	height: 610px;
+	text-align: center;
+	margin-left: 175px;
+}
+
+.main2 h2 {
+	color: #2B3F48;
+	font-size: 55px;
+	line-height: 170px;
+}
+
+.Sous_titre2 { /*pour le sous-titre*/
+	font-size: 22px;
+	color: #7E6F6F;
+	margin-top: 0px;
+}
+
+.Texte2 { /* gere le texte en dessous des sous titres*/
+	color: #7E6F6F;
+	font-size: 17px;
+	line-height: 30px;
+	margin-top: 70px;
+}
+
+.button2 {
+    background-color: #27AE61;
+    border: none;
+    color: white;
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    letter-spacing: 4px;    
+    border-radius: 10px;
+    font-size: 17px;
+    margin: 60px 0 60px 0;
+}
+
+.block3 { /* gere la taille, la largeur et la couleur de fond du troisieme block*/
+	background-color: #27AE61;
+	width: 100%;
+	height: 610px;
+	margin: 0px;
+}
+
+.main3 { /*permet d'aligner les element et de pas les faire depasser de 1000px*/
+	width: 1000px;
+	height: 610px;
+	text-align: center;
+	margin-left: 175px;
+}
+
+.main3 h2 {
+	color: white;
+	font-size: 55px;
+	line-height: 170px;
+}
+
+.Sous_titre3{ /*pour le sous-titre*/
+	font-size: 22px;
+	color: #cfefeb;
+	margin-top: 0px;
+}
+
+.Texte3 { /* gere le texte en dessous des sous titres*/
+	color: #cfefeb;
+	font-size: 17px;
+	line-height: 30px;
+	margin-top: 70px;
+}
+
+.button3 {
+	background-color: white;
+	border: none;
+	color: #27AE61;
+	padding: 20px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+	letter-spacing: 4px;    
+	border-radius: 10px;
+	font-size: 17px;
+	margin: 60px 0 60px 0;
+}
+
+.Texte3 a {
+	color: white;
+}
+
+footer {
+	background-color: rgba(238,238,238,0.8);
+	width: 100%;
+	height: 200px;
+	display: inline-block;
+}
+
+footer pre { /*exactement le meme texte*/
+	width: 1000px;
+	text-align: center;
+	margin-left: 175px;
+	color: #A7A7A7;
+	margin-top: 90px;
+	font-size: 14px;
+}
+
+footer img { /* logo du copyright*/
+	width: 8px;
+	height: 8px;
+}
+
+strong { /* mot important ds le footer*/
+	color: #2B3F48;
+}
