@@ -68,7 +68,7 @@
 }
 
 .cv {
-    margin-top: 4600px;
+    margin-top: 30px;
 }
 
 .cv a:hover {
@@ -88,9 +88,31 @@
 i {
     padding-left: 10px;
     color: black;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
 }
 
 i:hover {
     color: darkgrey;
+}
+
+.contInput {
+    padding-bottom: 20px;
+}
+
+form {
+    padding-top: 50px;
+}
+
+form button {
+    background-color: black!important;
+    border-color: black!important;
+}
+
+form button:hover {
+    background-color: darkgrey!important;
+    border-color: darkgrey!important;
+}
+
+html {
+    padding-bottom: 50px;
 }
