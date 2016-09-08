@@ -71,6 +71,26 @@
     margin-top: 4600px;
 }
 
+.cv a:hover {
+    background-color: darkgrey!important;
+    border-color: darkgrey;
+}
+
+.cv a {
+    background-color: black!important;
+    border-color: black;
+}
+
 .contact {
     margin-top: 80px;
+}
+
+i {
+    padding-left: 10px;
+    color: black;
+    padding-bottom: 30px;
+}
+
+i:hover {
+    color: darkgrey;
 }
