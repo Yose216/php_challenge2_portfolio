@@ -6,16 +6,6 @@
 	padding: 0;
 }
 
-p {
-	font-family: 'Merriweather', serif;
-}
-
-h1, h2, h3,
-.navbar-brand, .navbar-nav a,
-.btn > p {
-	font-family: 'Open Sans', sans-serif;
-}
-
 /* style de la barre de navigation */
 
 header {
@@ -35,6 +25,7 @@ header {
 .navbar-nav a {
 	font-size: 1em;
 	font-weight: 700;
+	font-family: "Open Sans";
 }
 
 .navbar-brand {
@@ -43,37 +34,6 @@ header {
 
 .navbar-nav a {
 	color: #222222;
-}
-
-/* style des boutons */
-
-.btn {
-	margin: 50px 0;
-	padding: 18px 30px;
-	border-radius: 30px;
-}
-
-.btn > p {
-	margin: 0;
-	font-weight: 700;
-}
-
-header+section .btn {
-	background-color: #F05F40;
-	color: #FFFFFF;
-}
-
-header+section+section .btn {
-	background-color: #FFFFFF;
-	color: #000000;
-}
-
-.DL .btn {
-	background-color: #F2F2F2;
-}
-
-.DL .btn:hover {
-	background-color: #F05F40;
 }
 
 /* style des deux premières sections */
@@ -87,6 +47,18 @@ hr {
 	width: 50px;
 	height: 3px;
 	border: 0;
+}
+
+.btn {
+	margin: 50px 0;
+	padding: 18px 30px;
+	border-radius: 30px;
+}
+
+.btn > p {
+	margin: 0;
+	font-weight: 700;
+	font-family: "Open Sans";
 }
 
 /* style de la première section ("find out more") */
@@ -103,6 +75,7 @@ h1 {
 	margin-top: 0;
 	font-size: 4em;
 	font-weight: 700;
+	font-family: "Open Sans";
 	color: #FFFFFF;
 }
 
@@ -114,7 +87,13 @@ header+section > p {
 	margin: 0;
 	font-size: 1.2em;
 	font-weight: 100;
+	font-family: "Merriweather";
 	color: rgba(255,255,255,0.8);
+}
+
+header+section .btn {
+	background-color: #F05F40;
+	color: #FFFFFF;
 }
 
 /* style de la première section ("get started!") */
@@ -129,6 +108,7 @@ header+section+section {
 h2 {
 	margin-top: 0;
 	font-size: 2em;
+	font-family: "Open Sans";
 	color: #FFFFFF;
 }
 
@@ -141,7 +121,21 @@ header+section+section > p {
 	margin: auto;
 	font-size: 1em;
 	font-weight: 100;
+	font-family: "Merriweather";
 	color: rgba(255,255,255,0.8);
+}
+
+header+section+section .btn {
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+* {
+    font-family: 'Merriweather', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Open Sans', serif;
 }
 
 .service { /* tout la section avec le titre et les icones*/
@@ -286,6 +280,22 @@ header+section+section > p {
 .DL h2 {
 	margin-bottom: 25px;
 	color: #F2F2F2;
+}
+
+.button{ /*bouton de dl*/
+	background-color: #F2F2F2;
+	border:none;
+	padding: 17px 30px 17px 30px;
+	text-align: center;
+	display:inline-block;
+	cursor: pointer;
+	letter-spacing: 2px;	
+	border-radius: 50px;
+	font-size:15px;
+}
+
+.button:hover {
+	background-color: #f05f40;
 }
 
 .DL a {
