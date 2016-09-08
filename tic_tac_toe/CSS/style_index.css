@@ -1,0 +1,17 @@
+body {
+	background-image: url('../Images/tun.jpg');
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+h1 {
+	color: black!important;
+	font-size: 50px!important;
+	margin-left: 23%!important;
+}
+
+button {
+	margin-left: 37%!important;
+	margin-top: 15%!important;
+	height: 100px;
+}
