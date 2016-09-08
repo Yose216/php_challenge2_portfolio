@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Goku clicker</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/script.js" type="text/javascript"></script>
+	
+
+</head>
+<body>
+	<h1>Bienvenue sur le Goku clicker!!</h1>
+		
+	<div class="Goku">
+		<h3>Clique ici!</h3>
+		<img src="Image/Goku.jpg" id="Leclick" onclick="compteur()" class="target"/>
+	</div>
+
+	<div class="multi">
+		<h3 id="affiche">Senzu X1 (Prochain senzu: 50)</h3>
+		<img src="Image/senzu.jpg" id="multiplicateur" onclick="acheterMulti()"/>
+	</div>
+
+	<div class="autoclick">
+		<h3 id="auto">Gorille X10 (Prochain senzu: 100)</h3>
+		<img src="Image/gorille.jpg" id="auto" onclick="auto_click()"/>
+	</div>
+
+	<div id="score"></div>
+</body>
+</html>
