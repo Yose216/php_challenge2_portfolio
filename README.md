@@ -18,7 +18,7 @@ Do not hesitate to play with Jade, SASS, LESS, CoffeeScript or JS libraries !
 Upload your website with GitHub page, more info here:
 https://pages.github.com/
 
-## Inspirations
+## Inspirations 
 
 * http://www.awwwards.com/websites/portfolio/
 * https://onepagelove.com/gallery/portfolio/

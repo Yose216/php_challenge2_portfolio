@@ -16,7 +16,7 @@
 .carousel img {
     visibility: hidden;
     cursor: pointer;
-    height: 500px;
+    height: 550px;
     width: 700px;
 }
 
@@ -35,7 +35,7 @@
 }
 
 .wp {
-    margin-top: 50px;
+    margin-top: 150px;
 }
 
 .wp img {
@@ -48,7 +48,7 @@
 
 .js {
     /*partie javascript*/
-    margin-top: 50px;
+    margin-top: 150px;
 }
 
 .js img {
@@ -56,7 +56,7 @@
 }
 
 .jQuery {
-    margin-top: 90px;
+    margin-top: 150px;
 }
 
 .imgjQ {
