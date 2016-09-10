@@ -10,4 +10,11 @@ Retrouvez ici mon portfolio qui contient toutes mes créations en développement
 + jQuery v2.2.2 (http://www.jquery.com)
 + Waterwheel Carousel v2.3.0 (http://www.bkosborne.com)
 
+###Contact 
+
+[Twitter](https://twitter.com/Youness_Chetoui)
+[LinkedIn](https://fr.linkedin.com/in/youness-chetoui-70b296122)
+
+-----------------
+
 Youness CHETOUI 2016
