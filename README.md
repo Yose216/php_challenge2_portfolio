@@ -1,8 +1,8 @@
 # Mon Portfolio
 
-Retrouvez içi mon portfolio qui contient toutes mes creation en developpement web
+Retrouvez ici mon portfolio qui contient toutes mes créations en développement web
 
-## Techno utiliser
+## Technologie utilisée
 
 + HTML5/CSS3
 + Bootstrap v3.3.6 (http://getbootstrap.com)

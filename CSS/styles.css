@@ -1,7 +1,10 @@
 .portfolio {
     margin-top: 100px;
 }
-
+ a:active {
+	background-color: black;
+	
+}
 
 /*css carrousel*/
 
