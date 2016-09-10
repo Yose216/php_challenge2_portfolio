@@ -12,8 +12,7 @@ Retrouvez ici mon portfolio qui contient toutes mes créations en développement
 
 ###Contact 
 
-[Twitter](https://twitter.com/Youness_Chetoui)
-[LinkedIn](https://fr.linkedin.com/in/youness-chetoui-70b296122)
+**[Twitter](https://twitter.com/Youness_Chetoui)** / **[LinkedIn](https://fr.linkedin.com/in/youness-chetoui-70b296122)**
 
 -----------------
 
