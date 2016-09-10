@@ -1,25 +1,13 @@
-# Portfolio
-The target of this challenge is to realize your own portfolio. 
+# Mon Portfolio
 
-This challenge shall be realized in several steps. 
-The first step, to be delivered next week, is to realize a first draft using only front languages. Therefore HTML, CSS, JS...
+Retrouvez içi mon portfolio qui contient toutes mes creation en developpement web
 
-Any additional library is accepted as long as it stays a front language.
-Do not hesitate to play with Jade, SASS, LESS, CoffeeScript or JS libraries ! 
+## Techno utiliser
 
-## Checklist
++ HTML5/CSS3
++ Bootstrap v3.3.6 (http://getbootstrap.com)
++ Font-awesome v4.6.3 (http://fontawesome.io)
++ jQuery v2.2.2 (http://www.jquery.com)
++ Waterwheel Carousel v2.3.0 (http://www.bkosborne.com)
 
-* Link your **GitHub** account https://github.com/settings/profile (take the time to fill out your profile information)
-* Link your **LinkedIn** account
-* Link your **Stack Overflow Carrers** account (if you do not have one, create it on http://careers.stackoverflow.com/)
-
-## Hosting
-
-Upload your website with GitHub page, more info here:
-https://pages.github.com/
-
-## Inspirations 
-
-* http://www.awwwards.com/websites/portfolio/
-* https://onepagelove.com/gallery/portfolio/
-* http://jgthms.com/web-design-in-4-minutes/
+Youness CHETOUI 2016
