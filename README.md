@@ -1,6 +1,6 @@
 # Mon Portfolio
 
-Retrouvez ici mon portfolio qui contient toutes mes créations en développement web
+Première version de mon portfolio qui contient toutes mes créations en développement web.
 
 ## Technologie utilisée
 
@@ -16,4 +16,4 @@ Retrouvez ici mon portfolio qui contient toutes mes créations en développement
 
 -----------------
 
-Youness CHETOUI 2016© Licence MIT
+<sup>Youness CHETOUI 2016© Licence MIT</sup>
