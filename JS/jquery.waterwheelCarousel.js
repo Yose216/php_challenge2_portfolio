@@ -671,7 +671,7 @@
         imageNav: true, // clicking a non-center image will rotate that image to the center
 
         // preloader
-        preloadImages: false, // disable/enable the image preloader. 
+        preloadImages: true, // disable/enable the image preloader. 
         forcedImageWidth: 0, // specify width of all images; otherwise the carousel tries to calculate it
         forcedImageHeight: 0, // specify height of all images; otherwise the carousel tries to calculate it
 
