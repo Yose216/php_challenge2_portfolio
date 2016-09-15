@@ -9,6 +9,10 @@ Première version de mon portfolio qui contient toutes mes créations en dévelo
 + Font-awesome v4.6.3 (http://fontawesome.io)
 + jQuery v2.2.2 (http://www.jquery.com)
 + Waterwheel Carousel v2.3.0 (http://www.bkosborne.com)
++ Google fonts:
+    + Open Sans (https://fonts.google.com/specimen/Open+Sans)
+    + Raleway (https://fonts.google.com/specimen/Raleway)
+    + Roboto (https://fonts.google.com/specimen/Roboto)
 
 ###Contact 
 
