@@ -1,15 +1,12 @@
 .portfolio {
     margin-top: 100px;
 }
- a:active {
-	background-color: black;
-	
-}
+
 
 /*css carrousel*/
 
 .carousel {
-    height: 500px;
+    height: 600px;
     position: relative;
     clear: both;
     overflow: hidden;
@@ -27,22 +24,13 @@
     margin-top: 50px;
 }
 
-.html_css img {
-    /*image html_css*/
-    margin-top: 50px;
-}
-
 .carrou {
     /*classe du carrousel*/
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .wp {
     margin-top: 150px;
-}
-
-.wp img {
-    margin-top: 50px;
 }
 
 .wp h3 {
@@ -54,16 +42,8 @@
     margin-top: 150px;
 }
 
-.js img {
-    margin-top: 50px;
-}
-
 .jQuery {
     margin-top: 150px;
-}
-
-.imgjQ {
-    margin-top: 40px;
 }
 
 .Moi {
@@ -114,6 +94,10 @@ form button {
 form button:hover {
     background-color: darkgrey!important;
     border-color: darkgrey!important;
+}
+
+.php {
+    margin-top: 90px;
 }
 
 html {
