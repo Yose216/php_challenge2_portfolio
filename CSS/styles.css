@@ -2,6 +2,24 @@
     margin-top: 100px;
 }
 
+h1 {
+    font-weight: bolder!important;
+}
+
+h1,
+h2 {
+    font-family: 'Open Sans'!important;
+}
+
+h3,
+h4 {
+    font-family: 'Raleway'!important;
+}
+
+p {
+    font-family: 'Roboto'!important;
+}
+
 
 /*css carrousel*/
 
@@ -60,8 +78,8 @@
 }
 
 .cv a {
-    background-color: black!important;
-    border-color: black;
+    background-color: #222222!important;
+    border-color: #222222;
 }
 
 .contact {
@@ -70,7 +88,7 @@
 
 i {
     padding-left: 10px;
-    color: black;
+    color: #222222;
     padding-bottom: 10px;
 }
 
@@ -87,8 +105,8 @@ form {
 }
 
 form button {
-    background-color: black!important;
-    border-color: black!important;
+    background-color: #222222!important;
+    border-color: #222222!important;
 }
 
 form button:hover {
