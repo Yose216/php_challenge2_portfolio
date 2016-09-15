@@ -48,7 +48,17 @@ a {
     margin-top: 50px;
 }
 
-.wp {
+.imgHtlmCss,
+.wpImg,
+.jsImg,
+.jQImg,
+.phpImg {
+    margin-top: 50px!important;
+}
+
+.wp,
+.js,
+.jQuery {
     margin-top: 150px;
 }
 
@@ -56,16 +66,9 @@ a {
     padding-left: 20px;
 }
 
-.js {
-    margin-top: 150px;
-}
-
-.jQuery {
-    margin-top: 150px;
-}
-
 .Moi {
     margin-top: 90px;
+    padding-bottom: 50px;
 }
 
 .cv {
@@ -90,6 +93,14 @@ form {
 
 html {
     padding-bottom: 50px;
+}
+
+.texteAbout h3 {
+    margin-top: 0px!important;
+}
+
+.Photo {
+    margin-top: 5px;
 }
 
 
