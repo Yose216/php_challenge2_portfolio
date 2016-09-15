@@ -1,6 +1,4 @@
-.portfolio {
-    margin-top: 100px;
-}
+/* font and height of text*/
 
 h1 {
     font-weight: bolder!important;
@@ -8,16 +6,17 @@ h1 {
 
 h1,
 h2 {
-    font-family: 'Open Sans'!important;
+    font-family: 'Open Sans', sans-serif!important;
 }
 
 h3,
 h4 {
-    font-family: 'Raleway'!important;
+    font-family: 'Raleway', sans-serif!important;
 }
 
-p {
-    font-family: 'Roboto'!important;
+p,
+a {
+    font-family: 'Roboto', sans-serif!important;
 }
 
 
@@ -38,13 +37,15 @@ p {
     width: 700px;
 }
 
-.html_css {
-    margin-top: 50px;
+
+/*space in the portfolio*/
+
+.portfolio {
+    margin-top: 100px;
 }
 
-.carrou {
-    /*classe du carrousel*/
-    margin-top: 20px;
+.html_css {
+    margin-top: 50px;
 }
 
 .wp {
@@ -56,7 +57,6 @@ p {
 }
 
 .js {
-    /*partie javascript*/
     margin-top: 150px;
 }
 
@@ -72,6 +72,29 @@ p {
     margin-top: 30px;
 }
 
+.contact {
+    margin-top: 80px;
+}
+
+.contInput {
+    padding-bottom: 20px;
+}
+
+form {
+    padding-top: 50px;
+}
+
+.php {
+    margin-top: 90px;
+}
+
+html {
+    padding-bottom: 50px;
+}
+
+
+/*Colors of portfolio*/
+
 .cv a:hover {
     background-color: darkgrey!important;
     border-color: darkgrey;
@@ -80,10 +103,6 @@ p {
 .cv a {
     background-color: #222222!important;
     border-color: #222222;
-}
-
-.contact {
-    margin-top: 80px;
 }
 
 i {
@@ -96,14 +115,6 @@ i:hover {
     color: darkgrey;
 }
 
-.contInput {
-    padding-bottom: 20px;
-}
-
-form {
-    padding-top: 50px;
-}
-
 form button {
     background-color: #222222!important;
     border-color: #222222!important;
@@ -112,12 +123,4 @@ form button {
 form button:hover {
     background-color: darkgrey!important;
     border-color: darkgrey!important;
-}
-
-.php {
-    margin-top: 90px;
-}
-
-html {
-    padding-bottom: 50px;
 }
