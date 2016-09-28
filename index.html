@@ -36,8 +36,8 @@
 
         <div class="container portfolio">
             <div class="home">
-                <h1 id="home">Portfolio Youness</h1>
-                <h3>Bienvenue Sur Mon Portfolio, Jeune Développeur Web, Vous Retrouverez Tout Mon Travail ici!</h3>
+                <h1 id="home" class="col-lg-offset-5">Portfolio</h1>
+                <h3>Youness CHETOUI, développeur web junior depuis 1ans, specialise dans le back-end, passione d'informatique et toujours a l'affut des dernieres technologie, je vous laisse decouvrir tout mes projet que ce soit en front-end ou back-end sur ce site, n'hesitez pas a me contacter.</h3>
             </div>
 
             <div id="html" class="col-lg-12 html_css">
@@ -90,7 +90,7 @@
             </div>
 
             <div class="col-lg-12" id="Moi">
-                <h2 class="col-lg-offset-6 col-xs-offset-5 Moi">ABOUT</h2>
+                <h2 class="col-lg-offset-6 col-xs-offset-5 Moi">ABOUT ME</h2>
                 <div class="Photo col-lg-6">
                     <img src="Images/Youness.JPG" class="img-responsive" />
                 </div>
@@ -107,6 +107,7 @@
 
             <div id="Contact" class="col-lg-12 contact">
                 <h1 class="col-lg-offset-5 col-xs-offset-2">CONTACT</h1>
+				<i class="fa fa-envelope fa-4x col-lg-offset-5" aria-hidden="true"></i>
 
                 <div class="social col-lg-offset-5 col-xs-offset-2">
                     <a href="https://twitter.com/Youness_Chetoui" title="Twitter"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
@@ -114,42 +115,27 @@
                     <a href="https://github.com/Yose216" title="Github"><i class="fa fa-github-square fa-3x" aria-hidden="true"></i></a>
                 </div>
 
-                <!--<form method="post" action="Mail.php" class="col-lg-offset-4">
-                    <div class="col-lg-12 contInput">
-                        <label>E-mail : </label>
-                        <input type="email" name="adresse" placeholder="example@example.com" />
-                    </div>
-                    <div class="col-lg-12 contInput">
-                        <label>Objet : </label>
-                        <input type="text" name="objet" placeholder="Ex : Travail" />
-                    </div>
-                    <div class="col-lg-8 contInput">
-                        <label>Message : </label>
-                        <textarea name="msg" maxlength="500" placeholder="Votre message!" class="col-lg-12" rows="8"></textarea>
-                    </div>
-                    <button class="btn btn-success col-lg-2 col-lg-offset-3 col-xs-offset-4" type="submit" value="Valider" name='envoye'>Envoi</button>
-                </form>-->
 				<form class="form-horizontal" method="post">
 					<div class="row">
 						<div class="col-md-6 col-sm-6 col-xs-12">
 							<div class="form-group">
-								<div class="col-md-offset-7 col-md-5">
-									<input type="name" class="form-control" id="name" placeholder=" Nom/Prenom">
+								<div class="col-md-offset-7 col-md-5 col-xs-12">
+									<input type="name" class="form-control" id="name" placeholder="Nom/Prenom*">
 								</div>
 							</div>
 							<div class="form-group">
-								<div class=" col-md-offset-7 col-md-5">
-									<input type="name" class="form-control" id="Telephone" placeholder=" Telephone">
+								<div class=" col-md-offset-7 col-md-5 col-xs-12">
+									<input type="name" class="form-control" id="Telephone" placeholder="Telephone">
 								</div>
 							</div>
 							<div class="form-group">
-								<div class="col-md-offset-7 col-md-5">
-									<input type="email" class="form-control" id="email" placeholder=" Email">
+								<div class="col-md-offset-7 col-md-5 col-xs-12">
+									<input type="email" class="form-control" id="email" placeholder="Email*">
 								</div>
 							</div>
 						</div>
-						<div class="col-md-4">
-							<textarea class="form-control" name="le-message" placeholder=" votre message " rows="6" cols="20"></textarea>
+						<div class="col-md-4 col-xs-12">
+							<textarea class="form-control" name="msg" placeholder="Votre message* " rows="6" cols="20"></textarea>
 						</div>
 					</div>
 					<button class="btn btn-success col-lg-2 col-lg-offset-5 col-xs-offset-4" type="submit" value="Valider" name='envoye'>Envoi</button>

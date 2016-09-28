@@ -80,10 +80,6 @@ a {
     padding-bottom: 50px;
 }
 
-.contInput {
-    padding-bottom: 20px;
-}
-
 form {
     padding-top: 50px;
 }
@@ -98,6 +94,10 @@ form {
 
 .Photo {
     margin-top: 5px;
+}
+
+.btn {
+	margin-top: 15px;
 }
 
 
