@@ -114,7 +114,7 @@
                     <a href="https://github.com/Yose216" title="Github"><i class="fa fa-github-square fa-3x" aria-hidden="true"></i></a>
                 </div>
 
-                <form method="post" action="Mail.php" class="col-lg-offset-4">
+                <!--<form method="post" action="Mail.php" class="col-lg-offset-4">
                     <div class="col-lg-12 contInput">
                         <label>E-mail : </label>
                         <input type="email" name="adresse" placeholder="example@example.com" />
@@ -128,7 +128,32 @@
                         <textarea name="msg" maxlength="500" placeholder="Votre message!" class="col-lg-12" rows="8"></textarea>
                     </div>
                     <button class="btn btn-success col-lg-2 col-lg-offset-3 col-xs-offset-4" type="submit" value="Valider" name='envoye'>Envoi</button>
-                </form>
+                </form>-->
+				<form class="form-horizontal" method="post">
+					<div class="row">
+						<div class="col-md-6 col-sm-6 col-xs-12">
+							<div class="form-group">
+								<div class="col-md-offset-7 col-md-5">
+									<input type="name" class="form-control" id="name" placeholder=" Nom/Prenom">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class=" col-md-offset-7 col-md-5">
+									<input type="name" class="form-control" id="Telephone" placeholder=" Telephone">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-md-offset-7 col-md-5">
+									<input type="email" class="form-control" id="email" placeholder=" Email">
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<textarea class="form-control" name="le-message" placeholder=" votre message " rows="6" cols="20"></textarea>
+						</div>
+					</div>
+					<button class="btn btn-success col-lg-2 col-lg-offset-5 col-xs-offset-4" type="submit" value="Valider" name='envoye'>Envoi</button>
+				</form>
             </div>
         </div>
 
