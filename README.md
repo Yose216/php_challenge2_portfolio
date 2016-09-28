@@ -19,8 +19,7 @@ Première version de mon portfolio qui contient toutes mes créations en dévelo
 + ajout de couleur nav bar et button meme
 + 2 couleur pour block language
 + 1 couleur pour about et contact
-+ travailler texte header
-+ travailler le formulaire
++ corriger texte header
 
 ###Contact 
 

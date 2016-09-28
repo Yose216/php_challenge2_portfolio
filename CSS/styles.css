@@ -46,6 +46,7 @@ a {
 
 .html_css {
     margin-top: 50px;
+	background-color: #E8710B;
 }
 
 .imgHtlmCss,
@@ -78,6 +79,7 @@ a {
 .contact {
     margin-top: 80px;
     padding-bottom: 50px;
+	background-color: #E8310B;
 }
 
 form {
@@ -131,4 +133,16 @@ form button {
 form button:hover {
     background-color: darkgrey!important;
     border-color: darkgrey!important;
+}
+
+nav {
+	background-color: #FF6219!important;
+}
+
+nav a {
+	color: white!important;
+}
+
+.wp {
+	background-color: #FF9E0C;
 }
