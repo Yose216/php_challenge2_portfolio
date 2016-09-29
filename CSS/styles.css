@@ -114,12 +114,12 @@ form {
 }
 
 * {
-	color: black!important;
+/*	color: black!important;*/
 }
 
 i {
     padding-left: 10px;
-    color: #1B1F4C!important;
+    color: #987D18!important;
     padding-bottom: 10px;
 }
 
@@ -146,22 +146,22 @@ nav a {
 }
 
 #carouselHtml {
-	background-color: #F16529;
+	background-color: #202459;
 }
 
 #carouselWp {
-	background-color: #21759A;
+	background-color: #202459;
 }
 
 #carouselJs {
-	background-color: #F0BE20;
+	background-color: #202459;
 }
 
 #carouseljQuery {
-	background-color: #3250B0;
+	background-color: #202459;
 }
 
 .contenue {
-	background-color: #B20201;
+	background-color: #987D18;
 }
 
