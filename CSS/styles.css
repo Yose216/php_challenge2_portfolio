@@ -68,7 +68,7 @@ a {
 
 .Moi {
     margin-top: 90px;
-    padding-bottom: 50px;
+/*    padding-bottom: 50px;*/
 }
 
 .cv {
@@ -109,23 +109,27 @@ form {
 }
 
 .cv a {
-    background-color: #222222!important;
-    border-color: #222222;
+    background-color: #1B1F4C!important;
+    border-color: #1B1F4C;
+}
+
+* {
+	color: black!important;
 }
 
 i {
     padding-left: 10px;
-    color: #222222;
+    color: #1B1F4C!important;
     padding-bottom: 10px;
 }
 
 i:hover {
-    color: darkgrey;
+    color: darkgrey!important;
 }
 
 form button {
-    background-color: #222222!important;
-    border-color: #222222!important;
+    background-color: #1B1F4C!important;
+    border-color: #1B1F4C!important;
 }
 
 form button:hover {
@@ -161,3 +165,4 @@ nav a {
 .contact {
 	background-color: #B20201;
 }
+
