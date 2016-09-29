@@ -1,6 +1,8 @@
 # Mon Portfolio
 
-Première version de mon portfolio qui contient toutes mes créations en développement web.
+Première version de mon portfolio qui contient toutes mes créations en développement web :
+
+https://yose216.github.io/
 
 ## Technologie utilisée
 
@@ -15,7 +17,7 @@ Première version de mon portfolio qui contient toutes mes créations en dévelo
     + Roboto (https://fonts.google.com/specimen/Roboto)
 
 ### A faire
-+ corriger texte header
++ 
 
 ### Contact 
 
@@ -24,4 +26,5 @@ Première version de mon portfolio qui contient toutes mes créations en dévelo
 -----------------
 
 <sup>NB: Rafraichir la page pour visualiser en mode responsive.</sup>
+
 <sup>Youness CHETOUI 2016© Licence MIT</sup>
