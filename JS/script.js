@@ -41,4 +41,13 @@ $(document).ready(function(){
     $(".chevron").click(function(){
         $("#carouselHtml").slideToggle("slow");
     });
+	$(".chevron2").click(function(){
+        $("#carouselWp").slideToggle("slow");
+    });
+	$(".chevron3").click(function(){
+        $("#carouselJs").slideToggle("slow");
+    });
+	$(".chevron4").click(function(){
+        $("#carouseljQuery").slideToggle("slow");
+    });
 });
