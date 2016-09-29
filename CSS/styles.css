@@ -27,7 +27,7 @@ a {
     position: relative;
     clear: both;
     overflow: hidden;
-    background: #FFF;
+	display: none;
 }
 
 .carousel img {
@@ -46,7 +46,6 @@ a {
 
 .html_css {
     margin-top: 50px;
-	background-color: #E8710B;
 }
 
 .imgHtlmCss,
@@ -145,4 +144,8 @@ nav a {
 
 .wp {
 	background-color: #FF9E0C;
+}
+
+#carouselHtml {
+	background-color: #E8710B;
 }
