@@ -100,10 +100,6 @@ form {
 	margin-top: 15px;
 }
 
-#aboutMe {
-	display: none;
-}
-
 
 /*Colors of portfolio*/
 
@@ -121,10 +117,15 @@ form {
 /*	color: black!important;*/
 }
 
+
 i {
-    padding-left: 10px;
-    color: #987D18!important;
-    padding-bottom: 10px;
+	cursor: pointer;
+}
+
+.social i {
+	color: #202459;
+	padding-left: 10px;
+	padding-bottom: 10px;
 }
 
 i:hover {
@@ -171,5 +172,10 @@ nav a:hover {
 
 .contenue {
 	background-color: #987D18;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	display: none;
 }
+
+
 

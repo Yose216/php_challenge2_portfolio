@@ -53,4 +53,7 @@ $(document).ready(function(){
 	$(".chevron5").click(function(){
         $("#aboutMe").slideToggle("slow");
     });
+	$(".mail").click(function(){
+        $("#contact").slideToggle("slow");
+    });
 });
