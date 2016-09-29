@@ -135,6 +135,14 @@ form {
 	padding-left: 45px;
 }
 
+.chevron:hover,
+.chevron2:hover,
+.chevron3:hover,
+.chevron4:hover,
+.chevron5:hover {
+	color: #987D18;
+}
+
 i {
 	cursor: pointer;
 }
@@ -143,10 +151,6 @@ i {
 	color: #202459;
 	padding-left: 10px;
 	padding-bottom: 10px;
-}
-
-i:hover {
-	color: darkgrey!important;
 }
 
 form button {
