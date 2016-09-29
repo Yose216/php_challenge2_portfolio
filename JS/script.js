@@ -50,4 +50,7 @@ $(document).ready(function(){
 	$(".chevron4").click(function(){
         $("#carouseljQuery").slideToggle("slow");
     });
+	$(".chevron5").click(function(){
+        $("#aboutMe").slideToggle("slow");
+    });
 });
