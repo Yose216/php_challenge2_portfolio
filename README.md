@@ -15,13 +15,9 @@ Première version de mon portfolio qui contient toutes mes créations en dévelo
     + Roboto (https://fonts.google.com/specimen/Roboto)
 
 ### A faire
-+ slide jquery(fleche qui slide les differente partie)
-+ ajout de couleur nav bar et button meme
-+ 2 couleur pour block language 
-+ 1 couleur pour about et contact 
 + corriger texte header
 
-###Contact 
+### Contact 
 
 **[Twitter](https://twitter.com/Youness_Chetoui)** / **[LinkedIn](https://fr.linkedin.com/in/youness-chetoui-70b296122)**
 
