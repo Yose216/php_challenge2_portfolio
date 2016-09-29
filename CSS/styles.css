@@ -68,7 +68,6 @@ a {
 
 .Moi {
 	margin-top: 90px;
-	/*    padding-bottom: 50px;*/
 }
 
 .cv {
@@ -78,6 +77,15 @@ a {
 .contact {
 	margin-top: 80px;
 	padding-bottom: 50px;
+}
+
+.mail {
+	color: #987D18;
+	padding-left: 50px;
+}
+
+.mail:hover {
+	color: #1B1F4C;
 }
 
 form {
@@ -153,6 +161,10 @@ i {
 	padding-bottom: 10px;
 }
 
+.social i:hover {
+	color: darkgrey;
+}
+
 form button {
 	background-color: #1B1F4C!important;
 	border-color: #1B1F4C!important;
@@ -201,4 +213,12 @@ nav a:hover {
 .texteAbout,
 .cv h4 {
 	color: black!important;
+}
+
+.pFooter {
+	font-size: 10px!important;
+	padding-left: 20px;
+	margin-top: 80px;
+	background-color: #202459;
+	color: #987D18;
 }
