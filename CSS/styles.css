@@ -1,12 +1,15 @@
 /* font and height of text*/
 
+/*
 h1 {
 	font-weight: bolder!important;
 }
+*/
 
 h1,
 h2 {
 	font-family: 'Open Sans', sans-serif!important;
+	font-weight: bolder!important;
 }
 
 h3,
@@ -80,12 +83,12 @@ a {
 }
 
 .mail {
-	color: #987D18;
+	color: #202459;
 	padding-left: 50px;
 }
 
 .mail:hover {
-	color: #1B1F4C;
+	color: black;
 }
 
 form {
@@ -148,7 +151,7 @@ form {
 .chevron3:hover,
 .chevron4:hover,
 .chevron5:hover {
-	color: #987D18;
+	color: #0C0B07;
 }
 
 i {
@@ -184,7 +187,7 @@ nav a {
 }
 
 nav a:hover {
-	color: #987D18!important;
+	color: darkgrey!important;
 }
 
 #carouselHtml {
@@ -204,7 +207,7 @@ nav a:hover {
 }
 
 .contenue {
-	background-color: #987D18;
+	background-color: #4C52A5;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	display: none;
@@ -221,4 +224,8 @@ nav a:hover {
 	margin-top: 80px;
 	background-color: #202459;
 	color: #987D18;
+}
+
+.Moi  {
+	color: black!important;
 }
