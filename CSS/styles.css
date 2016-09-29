@@ -1,51 +1,51 @@
 /* font and height of text*/
 
 h1 {
-    font-weight: bolder!important;
+	font-weight: bolder!important;
 }
 
 h1,
 h2 {
-    font-family: 'Open Sans', sans-serif!important;
+	font-family: 'Open Sans', sans-serif!important;
 }
 
 h3,
 h4 {
-    font-family: 'Raleway', sans-serif!important;
+	font-family: 'Raleway', sans-serif!important;
 }
 
 p,
 a {
-    font-family: 'Roboto', sans-serif!important;
+	font-family: 'Roboto', sans-serif!important;
 }
 
 
 /*css carrousel*/
 
 .carousel {
-    height: 600px;
-    position: relative;
-    clear: both;
-    overflow: hidden;
+	height: 600px;
+	position: relative;
+	clear: both;
+	overflow: hidden;
 	display: none;
 }
 
 .carousel img {
-    visibility: hidden;
-    cursor: pointer;
-    height: 550px;
-    width: 700px;
+	visibility: hidden;
+	cursor: pointer;
+	height: 550px;
+	width: 700px;
 }
 
 
 /*space in the portfolio*/
 
 .portfolio {
-    margin-top: 100px;
+	margin-top: 100px;
 }
 
 .html_css {
-    margin-top: 50px;
+	margin-top: 50px;
 }
 
 .imgHtlmCss,
@@ -53,70 +53,82 @@ a {
 .jsImg,
 .jQImg,
 .phpImg {
-    margin-top: 50px!important;
+	margin-top: 50px!important;
 }
 
 .wp,
 .js,
 .jQuery {
-    margin-top: 150px;
+	margin-top: 150px;
 }
 
 .wp h3 {
-    padding-left: 20px;
+	padding-left: 20px;
 }
 
 .Moi {
-    margin-top: 90px;
-/*    padding-bottom: 50px;*/
+	margin-top: 90px;
+	/*    padding-bottom: 50px;*/
 }
 
 .cv {
-    margin-top: 30px;
+	margin-top: 30px;
 }
 
 .contact {
-    margin-top: 80px;
-    padding-bottom: 50px;
+	margin-top: 80px;
+	padding-bottom: 50px;
 }
 
 form {
-    padding-top: 50px;
+	padding-top: 50px;
 }
 
 .php {
-    margin-top: 90px;
+	margin-top: 90px;
 }
 
 .texteAbout h3 {
-    margin-top: 0px!important;
+	margin-top: 0px!important;
 }
 
 .Photo {
-    margin-top: 5px;
+	margin-top: 5px;
 }
 
 .btn {
 	margin-top: 15px;
 }
 
+.js img {
+	padding-left: 70px;
+}
+
+.js h3 {
+	padding-left: 20px;
+}
+
 
 /*Colors of portfolio*/
 
 .cv a:hover {
-    background-color: darkgrey!important;
-    border-color: darkgrey;
+	background-color: darkgrey!important;
+	border-color: darkgrey;
 }
 
 .cv a {
-    background-color: #1B1F4C!important;
-    border-color: #1B1F4C;
+	background-color: #1B1F4C!important;
+	border-color: #1B1F4C;
 }
 
-* {
-/*	color: black!important;*/
+.chevron,
+.chevron2,
+.chevron3,
+.chevron4,
+.chevron5 {
+	color: #1B1F4C;
+	padding-left: 45px;
 }
-
 
 i {
 	cursor: pointer;
@@ -129,17 +141,17 @@ i {
 }
 
 i:hover {
-    color: darkgrey!important;
+	color: darkgrey!important;
 }
 
 form button {
-    background-color: #1B1F4C!important;
-    border-color: #1B1F4C!important;
+	background-color: #1B1F4C!important;
+	border-color: #1B1F4C!important;
 }
 
 form button:hover {
-    background-color: darkgrey!important;
-    border-color: darkgrey!important;
+	background-color: darkgrey!important;
+	border-color: darkgrey!important;
 }
 
 nav {
@@ -176,6 +188,3 @@ nav a:hover {
 	padding-bottom: 20px;
 	display: none;
 }
-
-
-
