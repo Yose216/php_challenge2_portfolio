@@ -104,8 +104,13 @@ form {
 	padding-left: 70px;
 }
 
-.js h3 {
+.js h3,
+.jQuery h3 {
 	padding-left: 20px;
+}
+
+.jQuery img {
+	padding-left: 40px;
 }
 
 
@@ -187,4 +192,9 @@ nav a:hover {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	display: none;
+}
+
+.texteAbout,
+.cv h4 {
+	color: black!important;
 }
