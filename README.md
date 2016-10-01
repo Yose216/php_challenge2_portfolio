@@ -9,6 +9,7 @@ https://yose216.github.io/
 + HTML5/CSS3
 + Bootstrap v3.3.6 (http://getbootstrap.com)
 + Font-awesome v4.6.3 (http://fontawesome.io)
++ Animate.css v3.5.2 (https://daneden.github.io/animate.css/)
 + jQuery v2.2.2 (http://www.jquery.com)
 + Waterwheel Carousel v2.3.0 (http://www.bkosborne.com)
 + Google fonts:
