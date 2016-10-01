@@ -49,6 +49,14 @@ a {
 	width: 900px;
 }
 
+@media screen and (max-device-width: 500px) {
+	.carousel img {
+		width: 500px;
+		height: 400px;
+		visibility: hidden;
+		cursor: pointer;
+	}
+}
 
 /*space in the portfolio*/
 
