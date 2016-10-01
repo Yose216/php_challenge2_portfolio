@@ -157,6 +157,7 @@ form {
 .cv a {
 	background-color: #1B1F4C!important;
 	border-color: #1B1F4C;
+	margin-left: 2em;
 }
 
 .chevron,
@@ -256,4 +257,5 @@ nav a:hover {
 
 .home h3 {
 	-webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
 }
