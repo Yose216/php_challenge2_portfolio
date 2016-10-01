@@ -1,10 +1,19 @@
-/* font and height of text*/
+/* bootstrap */
 
-/*
-h1 {
-	font-weight: bolder!important;
+
+.container {
+	margin: 0!important;
+	padding: 0!important;
 }
-*/
+
+@media (min-width:1200px) {
+	.container {
+		width:100%!important;
+	}
+}
+
+
+/* font and height of text*/
 
 h1,
 h2 {
@@ -37,11 +46,19 @@ a {
 	visibility: hidden;
 	cursor: pointer;
 	height: 550px;
-	width: 700px;
+	width: 900px;
 }
 
 
 /*space in the portfolio*/
+
+.home {
+	margin-top: 8em;
+}
+
+.home h1 {
+	padding-left: 2em;
+}
 
 .portfolio {
 	margin-top: 100px;
@@ -84,7 +101,7 @@ a {
 
 .mail {
 	color: #202459;
-	padding-left: 50px;
+	padding-left: 1em;
 }
 
 .mail:hover {
@@ -112,7 +129,7 @@ form {
 }
 
 .js img {
-	padding-left: 70px;
+	padding-left: 6em;
 }
 
 .js h3,
@@ -121,7 +138,12 @@ form {
 }
 
 .jQuery img {
-	padding-left: 40px;
+	padding-left: 4em;
+}
+
+.wpImg, 
+.imgHtlmCss {
+	padding-left: 2.5em;
 }
 
 
