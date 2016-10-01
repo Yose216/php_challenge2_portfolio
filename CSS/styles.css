@@ -221,18 +221,9 @@ nav a:hover {
 	color: darkgrey!important;
 }
 
-#carouselHtml {
-	background-color: #202459;
-}
-
-#carouselWp {
-	background-color: #202459;
-}
-
-#carouselJs {
-	background-color: #202459;
-}
-
+#carouselHtml,
+#carouselWp,
+#carouselJs,
 #carouseljQuery {
 	background-color: #202459;
 }
@@ -249,11 +240,11 @@ nav a:hover {
 	color: black!important;
 }
 
-.pFooter {
+Footer {
 	font-size: 10px!important;
 	padding-left: 20px;
 	margin-top: 80px;
-	background-color: #202459;
+	background-color: #1B1F4C;
 	color: darkgray;
 }
 
