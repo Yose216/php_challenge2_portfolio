@@ -251,3 +251,9 @@ nav a:hover {
 .Moi  {
 	color: black!important;
 }
+
+/*For the animation */
+
+.home h3 {
+	-webkit-animation-delay: 1s;
+}

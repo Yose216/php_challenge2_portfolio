@@ -57,4 +57,29 @@ $(document).ready(function(){
         $("#contact").slideToggle("slow");
     });
 });
-
+$(document).ready(function(){
+    $( ".imgHtlmCss" ).mouseover(function() {
+		$('.imgHtlmCss').addClass('animated pulse').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', 
+		function () {
+			$(this).removeClass('animated pulse');
+		});
+	});
+	$( ".wpImg" ).mouseover(function() {
+		$('.wpImg').addClass('animated pulse').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', 
+		function () {
+			$(this).removeClass('animated pulse');
+		});
+	});
+	$( ".jsImg" ).mouseover(function() {
+		$('.jsImg').addClass('animated pulse').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', 
+		function () {
+			$(this).removeClass('animated pulse');
+		});
+	});
+	$( ".jQImg" ).mouseover(function() {
+		$('.jQImg').addClass('animated pulse').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', 
+		function () {
+			$(this).removeClass('animated pulse');
+		});
+	});
+});
